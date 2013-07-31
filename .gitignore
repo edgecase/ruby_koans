@@ -3,6 +3,7 @@ dist
 .path_progress
 .rvmrc
 .ruby-version
+.ruby-gemset
 *.rbc
 koans/*
 *~
