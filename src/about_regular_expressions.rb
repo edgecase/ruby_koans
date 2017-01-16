@@ -68,7 +68,7 @@ class AboutRegularExpressions < Neo::Koan
   end
 
   def test_slash_w_is_a_shortcut_for_a_word_character_class
-    # NOTE:  This is more like how a programmer might define a word.
+    # NOTE: This is more like how a programmer might define a word.
     assert_equal __("variable_1"), "variable_1 = 42"[/[a-zA-Z0-9_]+/]
     assert_equal __("variable_1"), "variable_1 = 42"[/\w+/]
   end

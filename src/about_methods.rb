@@ -15,7 +15,7 @@ class AboutMethods < Neo::Koan
     assert_equal __(5), result
   end
 
-  # (NOTE: We are Using eval below because the example code is
+  # (NOTE: We are using eval below because the example code is
   # considered to be syntactically invalid).
   def test_sometimes_missing_parentheses_are_ambiguous
     #--
@@ -31,7 +31,7 @@ class AboutMethods < Neo::Koan
     #
     #   assert_equal(5, my_global_method(2), 3)
     # or
-    #   assert_equal(5, my_global_method(2, 3))
+    #   assert_equal(5, my_global_method 2, 3))
     #
     # Rewrite the eval string to continue.
     #
