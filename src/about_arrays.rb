@@ -80,5 +80,4 @@ class AboutArrays < Neo::Koan
     assert_equal __(:first), shifted_value
     assert_equal __([1, 2]), array
   end
-
 end
