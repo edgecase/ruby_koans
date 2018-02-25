@@ -113,4 +113,14 @@ class AboutHashes < Neo::Koan
     assert_equal __(["dos"]), hash[:two]
     assert_equal __([]), hash[:three]
   end
+
+  def test_default_value_attribute
+    hash = Hash.new
+
+    assert_equal __(nil), hash[:some_key]
+
+    hash.default = 'peanut'
+
+    assert_equal __('peanut'), hash[:some_key]
+  end
 end
