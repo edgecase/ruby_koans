@@ -142,14 +142,14 @@ If you prefer, you can keep the koans running in the background so that after yo
 make a change in your editor, the koans will immediately run again. This will
 hopefully keep your focus on learning Ruby instead of on the command line.
 
-Install the Ruby gem (library) called +watchr+ and then ask it to
+Install the Ruby gem (library) called +observr+ and then ask it to
 "watch" the koans for changes:
 
     cd ruby_koans
     rake
     # decide to run rake automatically from now on as you edit
-    gem install watchr
-    watchr ./koans/koans.watchr
+    gem install observr
+    observr ./koans/koans.watchr
 
 == Inspiration
 
