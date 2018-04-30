@@ -175,6 +175,8 @@ Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pra
 
 Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
 
+Programming Community Curated Resources for learning Ruby      ::    https://hackr.io/tutorials/learn-ruby
+
 = Other stuff
 
 Author         :: Jim Weirich <jim@neo.org>
