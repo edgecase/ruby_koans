@@ -4,5 +4,4 @@ dist
 .rvmrc
 .ruby-version
 *.rbc
-koans/*
 *~
