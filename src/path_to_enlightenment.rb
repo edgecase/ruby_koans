@@ -38,4 +38,7 @@ require 'about_to_str'
 in_ruby_version("jruby") do
   require 'about_java_interop'
 end
+in_ruby_version("2.7") do
+  require 'about_pattern_matching'
+end
 require 'about_extra_credit'
