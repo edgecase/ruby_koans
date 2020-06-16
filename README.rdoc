@@ -98,7 +98,7 @@ The very first time you run the koans you will see the following output:
     path_to_enlightenment.rb:38
 
     mountains are merely mountains
-    your path thus far [X_________________________________________________] 0/280
+    your path thus far [X_________________________________________________] 0/280 (0%)
 
 You have come to your first stage. Notice it is telling you where to look for
 the first solution:
