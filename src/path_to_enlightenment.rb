@@ -12,7 +12,7 @@ require 'about_strings'
 require 'about_symbols'
 require 'about_regular_expressions'
 require 'about_methods'
-in_ruby_version("2") do
+in_ruby_version("2", "3") do
   require 'about_keyword_arguments'
 end
 require 'about_constants'
