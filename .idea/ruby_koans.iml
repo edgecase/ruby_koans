@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.3, ruby-3.0.2-p107) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, ruby-3.0.2-p107) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Run some simple consistency checks" fullCommand="check" id="check" />
+          <RakeTaskImpl id="check">
+            <subtasks>
+              <RakeTaskImpl description="Check that the require files match the about_* files" fullCommand="check:abouts" id="abouts" />
+              <RakeTaskImpl description="Check that asserts have __ replacements" fullCommand="check:asserts" id="asserts" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated files" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Pre-checkin tests (=&gt; run_all)" fullCommand="cruise" id="cruise" />
+          <RakeTaskImpl description="Generate the Koans from the changed source files" fullCommand="gen" id="gen" />
+          <RakeTaskImpl description="Create packaged files for distribution" fullCommand="package" id="package" />
+          <RakeTaskImpl description="Generate the Koans from the source files from scratch" fullCommand="regen" id="regen" />
+          <RakeTaskImpl description="Run the completed koans againts a list of relevant Ruby Implementations" fullCommand="run_all" id="run_all" />
+          <RakeTaskImpl description="Upload the package files to the web server" fullCommand="upload" id="upload" />
+          <RakeTaskImpl description="(re)Build zip file" fullCommand="zip" id="zip" />
+          <RakeTaskImpl description="" fullCommand="clobber_koans" id="clobber_koans" />
+          <RakeTaskImpl description="" fullCommand="clobber_zip" id="clobber_zip" />
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="download" id="download" />
+          <RakeTaskImpl description="" fullCommand="download/rubykoans.zip" id="download/rubykoans.zip" />
+          <RakeTaskImpl description="" fullCommand="koans" id="koans" />
+          <RakeTaskImpl description="" fullCommand="koans/GREED_RULES.txt" id="koans/GREED_RULES.txt" />
+          <RakeTaskImpl description="" fullCommand="koans/README.rdoc" id="koans/README.rdoc" />
+          <RakeTaskImpl description="" fullCommand="koans/Rakefile" id="koans/Rakefile" />
+          <RakeTaskImpl description="" fullCommand="koans/about_array_assignment.rb" id="koans/about_array_assignment.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_arrays.rb" id="koans/about_arrays.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_asserts.rb" id="koans/about_asserts.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_blocks.rb" id="koans/about_blocks.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_class_methods.rb" id="koans/about_class_methods.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_classes.rb" id="koans/about_classes.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_constants.rb" id="koans/about_constants.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_control_statements.rb" id="koans/about_control_statements.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_dice_project.rb" id="koans/about_dice_project.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_exceptions.rb" id="koans/about_exceptions.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_extra_credit.rb" id="koans/about_extra_credit.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_hashes.rb" id="koans/about_hashes.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_inheritance.rb" id="koans/about_inheritance.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_iteration.rb" id="koans/about_iteration.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_java_interop.rb" id="koans/about_java_interop.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_keyword_arguments.rb" id="koans/about_keyword_arguments.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_message_passing.rb" id="koans/about_message_passing.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_methods.rb" id="koans/about_methods.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_modules.rb" id="koans/about_modules.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_nil.rb" id="koans/about_nil.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_objects.rb" id="koans/about_objects.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_open_classes.rb" id="koans/about_open_classes.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_proxy_object_project.rb" id="koans/about_proxy_object_project.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_regular_expressions.rb" id="koans/about_regular_expressions.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_sandwich_code.rb" id="koans/about_sandwich_code.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_scope.rb" id="koans/about_scope.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_scoring_project.rb" id="koans/about_scoring_project.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_strings.rb" id="koans/about_strings.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_symbols.rb" id="koans/about_symbols.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_to_str.rb" id="koans/about_to_str.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_triangle_project.rb" id="koans/about_triangle_project.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_triangle_project_2.rb" id="koans/about_triangle_project_2.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/about_true_and_false.rb" id="koans/about_true_and_false.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/example_file.txt" id="koans/example_file.txt" />
+          <RakeTaskImpl description="" fullCommand="koans/koans.watchr" id="koans/koans.watchr" />
+          <RakeTaskImpl description="" fullCommand="koans/neo.rb" id="koans/neo.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/path_to_enlightenment.rb" id="koans/path_to_enlightenment.rb" />
+          <RakeTaskImpl description="" fullCommand="koans/triangle.rb" id="koans/triangle.rb" />
+          <RakeTaskImpl description="" fullCommand="run" id="run" />
+          <RakeTaskImpl description="" fullCommand="runall" id="runall" />
+          <RakeTaskImpl description="" fullCommand="walk_the_path" id="walk_the_path" />
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+</module>
