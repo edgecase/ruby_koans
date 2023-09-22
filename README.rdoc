@@ -149,7 +149,7 @@ Install the Ruby gem (library) called +observr+ and then ask it to
     rake
     # decide to run rake automatically from now on as you edit
     gem install observr
-    observr ./koans.watchr
+    observr koans/koans.watchr
 
 == Inspiration
 
